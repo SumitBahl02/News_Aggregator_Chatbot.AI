@@ -1,0 +1,66 @@
+{
+  "articles": [
+    {"id": 1, "headline": "NASA confirms water on Mars", "category": "Legitimate"},
+    {"id": 2, "headline": "You won’t believe what this celebrity did at a party!", "category": "Clickbait"},
+    {"id": 3, "headline": "Government officials caught in secret meeting about UFOs!", "category": "Conspiracy"},
+    {"id": 4, "headline": "New study finds potential cure for cancer", "category": "Legitimate"},
+    {"id": 5, "headline": "The TRUTH about 5G towers they don’t want you to know!", "category": "Conspiracy"},
+    {"id": 6, "headline": "Stock market crashes due to shocking reason!", "category": "Clickbait"},
+    {"id": 7, "headline": "Scientists predict Earth’s magnetic poles will shift soon", "category": "Legitimate"},
+    {"id": 8, "headline": "Did the government hide evidence of alien life?", "category": "Conspiracy"},
+    {"id": 9, "headline": "Elections were rigged using secret hacking techniques", "category": "Conspiracy"},
+    {"id": 10, "headline": "This one food will make you lose weight instantly!", "category": "Clickbait"},
+    
+    {"id": 11, "headline": "Climate change is accelerating faster than expected", "category": "Legitimate"},
+    {"id": 12, "headline": "  ", "category": "Unknown"},  
+    {"id": 13, "headline": "THE GOVERNMENT IS WATCHING YOU!", "category": "Conspiracy"},
+    {"id": 14, "headline": "5G is dangerous!!!", "category": "Conspiracy"},
+    {"id": 15, "headline": "Stock Market Sees Biggest Drop in 10 Years", "category": "Legitimate"},
+    {"id": 16, "headline": "Massive UFO sighting reported over New York", "category": "Conspiracy"},
+    {"id": 17, "headline": "President denies all allegations in press conference", "category": "Legitimate"},
+    {"id": 18, "headline": "Can drinking lemon water cure cancer? Experts weigh in", "category": "Clickbait"},
+    {"id": 19, "headline": "Doctors warn against the latest TikTok health craze", "category": "Legitimate"},
+    {"id": 20, "headline": "BREAKING: New world order forming, experts claim!", "category": "Conspiracy"},
+    
+    {"id": 100, "headline": "Study: People who wake up early are more successful", "category": "Legitimate"},
+    {"id": 101, "headline": "Secret societies control the world economy", "category": "Conspiracy"},
+    {"id": 102, "headline": "Do vaccines REALLY work? A shocking revelation!", "category": "Clickbait"},
+    {"id": 103, "headline": "Is sugar more addictive than cocaine? Scientists debate", "category": "Clickbait"},
+    {"id": 104, "headline": "Tech giant CEO found dead under mysterious circumstances", "category": "Legitimate"},
+    {"id": 105, "headline": "Government to announce strict new surveillance policies", "category": "Legitimate"},
+    {"id": 106, "headline": "Exclusive: Inside the top-secret military base that doesn’t exist", "category": "Conspiracy"},
+    {"id": 107, "headline": "We tried this viral TikTok trend—here’s what happened!", "category": "Clickbait"},
+    
+    {"id": 200, "headline": "Scientists discover bacteria that can digest plastic", "category": "Legitimate"},
+    {"id": 201, "headline": "Aliens spotted in Area 51? Here’s what we know!", "category": "Conspiracy"},
+    {"id": 202, "headline": "You’re eating THIS toxic ingredient every day!", "category": "Clickbait"},
+    {"id": 203, "headline": "Astronomers detect radio signals from deep space", "category": "Legitimate"},
+    {"id": 204, "headline": "Governments are hiding the truth about the moon landing!", "category": "Conspiracy"},
+    {"id": 205, "headline": "Simple tricks to get rich overnight!", "category": "Clickbait"},
+    {"id": 206, "headline": "Shocking new health benefits of eating chocolate", "category": "Legitimate"},
+    {"id": 207, "headline": "The real reason billionaires don’t pay taxes", "category": "Conspiracy"},
+    
+    {"id": 300, "headline": "Researchers develop new AI that can detect cancer early", "category": "Legitimate"},
+    {"id": 301, "headline": "EXPOSED: What doctors aren’t telling you about prescription drugs!", "category": "Conspiracy"},
+    {"id": 302, "headline": "Can meditation make you smarter? Here’s what science says", "category": "Legitimate"},
+    {"id": 303, "headline": "Is social media making you depressed? Experts say yes", "category": "Legitimate"},
+    {"id": 304, "headline": "Scientists warn about hidden dangers of climate change", "category": "Legitimate"},
+    {"id": 305, "headline": "You won’t believe what this celebrity did on live TV!", "category": "Clickbait"},
+    
+    {"id": 400, "headline": "BREAKING: New technology could make humans live forever", "category": "Clickbait"},
+    {"id": 401, "headline": "Doctors discover shocking link between diet and mental health", "category": "Legitimate"},
+    {"id": 402, "headline": "New world order? Leaked documents reveal hidden agenda", "category": "Conspiracy"},
+    {"id": 403, "headline": "The one exercise that burns belly fat instantly!", "category": "Clickbait"},
+    {"id": 404, "headline": "Government funding new AI research for national security", "category": "Legitimate"},
+    {"id": 405, "headline": "How a 12-year-old made millions with cryptocurrency", "category": "Clickbait"},
+    {"id": 406, "headline": "BREAKING: AI robot gains consciousness?", "category": "Conspiracy"},
+    
+    {"id": 500, "headline": "Experts warn about the hidden dangers of processed foods", "category": "Legitimate"},
+    {"id": 501, "headline": "Elon Musk reveals shocking plans for Mars colonization", "category": "Legitimate"},
+    {"id": 502, "headline": "Billionaire donates entire fortune to climate change research", "category": "Legitimate"},
+    {"id": 503, "headline": "The shocking truth about fast food you need to know!", "category": "Clickbait"},
+    {"id": 504, "headline": "Scientists develop self-healing materials for construction", "category": "Legitimate"},
+    {"id": 505, "headline": "New breakthrough in quantum computing announced", "category": "Legitimate"}
+  ]
+}
+
