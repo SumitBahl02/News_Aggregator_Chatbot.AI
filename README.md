@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# 🚀 AI-Powered News Aggregator & FAQ Chatbot  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **AI-Powered News Aggregator** and **FAQ Chatbot** project! This repository contains two independent applications built using **React.js** for the frontend and **Python (Flask)** for the backend. Below, you'll find everything you need to get started with the project.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📂 Project Overview  
 
-### `npm start`
+### 1. **AI-Powered News Aggregator**  
+A web application that processes news headlines, assigns a **Conspiracy Score (0-100%)**, and allows users to test custom headlines dynamically.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Key Features:  
+- **Dynamic Headline Analysis:** Enter any headline to get a real-time Conspiracy Score and classification.  
+- **CRUD Operations:** Add, update, or delete headlines from the dataset.  
+- **NLP Model:** Detects clickbait, misinformation, and neutral news using **TF-IDF** or **transformers**.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 2. **AI Chatbot for FAQs**  
+An intelligent chatbot that provides FAQ responses while detecting and correcting biased or misleading answers in real-time.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Key Features:  
+- **Real-Time Bias Detection:** Automatically rephrases overly promotional or biased responses.  
+- **FAQ Management:** Add, update, or delete FAQs using CRUD operations.  
+- **NLP Similarity Matching:** Retrieves the most relevant FAQ based on user queries.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Installation  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites  
+- **Node.js** (v16 or higher)  
+- **Python** (v3.8 or higher)  
+- **npm** (Node Package Manager)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steps to Run the Project  
 
-### `npm run eject`
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Frontend Dependencies**  
+   Navigate to the `frontend` folder and install dependencies:  
+   ```bash
+   cd frontend
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Install Backend Dependencies**  
+   Navigate to the `backend` folder and install dependencies:  
+   ```bash
+   cd ../backend
+   pip install -r requirements.txt
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Run the Backend Server**  
+   Start the Flask backend server:  
+   ```bash
+   python app.py
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Run the Frontend Application**  
+   In a new terminal, navigate to the `frontend` folder and start the React app:  
+   ```bash
+   cd ../frontend
+   npm start
+   ```
 
-## Learn More
+6. **Access the Application**  
+   Open your browser and go to:  
+   ```bash
+   http://localhost:3000
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📂 Folder Structure  
 
-### Code Splitting
+```plaintext
+your-repo-name/  
+├── frontend/               # React.js frontend code  
+├── backend/                # Flask backend code  
+├── datasets/               # JSON datasets for news headlines and FAQs  
+├── README.md               # Project documentation  
+└── .gitignore              # Git ignore file  
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🌐 API Endpoints  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### News Aggregator API  
+- **POST /classify-headline**: Classify a headline and return the Conspiracy Score.  
+- **GET /headlines**: Fetch all headlines from the dataset.  
+- **POST /add-headline**: Add a new headline to the dataset.  
+- **PUT /update-headline**: Update an existing headline.  
+- **DELETE /delete-headline**: Delete a headline from the dataset.  
 
-### Making a Progressive Web App
+### FAQ Chatbot API  
+- **POST /ask-question**: Retrieve the most relevant FAQ for a user query.  
+- **GET /faqs**: Fetch all FAQs from the dataset.  
+- **POST /add-faq**: Add a new FAQ to the dataset.  
+- **PUT /update-faq**: Update an existing FAQ.  
+- **DELETE /delete-faq**: Delete an FAQ from the dataset.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🚀 Deployment  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To deploy the application, follow these steps:  
+1. Build the React app:  
+   ```bash
+   cd frontend
+   npm run build
+   ```  
+2. Deploy the backend using **Heroku**, **Vercel**, or **AWS**.  
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 Notes  
+- Ensure the backend server is running before starting the frontend.  
+- Use the provided JSON datasets (`news_headlines_large.json` and `faq_data_large.json`) for testing.
